@@ -1,3 +1,51 @@
+# Ignore Mac system files
+.DS_store
+
+# Ignore all text files
+# *.txt
+
+# Ignore files related to API keys
+.env
+
+# Ignore images the test pattern produces
+*.png
+
+# Ignore this reference file
+python_test_script_forRef.py
+
+# Ignore output ps1 scripts
+*.ps1
+
+# Ignore env directory
+env/
+venv/
+.env/
+.venv/
+
+# Ignore keys
+client*
+credentials*
+secret/
+
+# Ignore JSON
+*.json
+
+# Ignore mac files
+._*
+
+# Ignore local files
+ignore*
+
+# Ignore archive folder
+archive/
+
+# Ignore cache files
+__*
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
